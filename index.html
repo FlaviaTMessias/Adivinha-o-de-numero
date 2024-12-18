@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adivinhação de Número</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1> Adivinhação de numero</h1>
+    <p>Digite um número entre 1 e 100:</p>
+    <input type="number" id="inputNumero" min="1" max="100" placeholder="Digite seu palpite">
+    <button id="btnChutar">Chutar</button>
+    <p id="mensagem"></p>
+    <p id="tentativas">Tentativas: 0</p>
+    <p id="resultado"></p>
+    <button id="reset" style="display: none;">Jogar Novamente</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

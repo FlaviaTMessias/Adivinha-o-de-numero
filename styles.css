@@ -1,0 +1,84 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Fundo degradê */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game-container {
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 18px;
+    width: 60%;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #reset {
+    margin-top: 20px;
+    background-color: #f44336;
+  }
+  
+  #reset:hover {
+    background-color: #d32f2f;
+  }
+  
+  #resultado {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  #tentativas {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  #mensagem {
+    font-size: 16px;
+    color: #888;
+    margin-top: 10px;
+  }
+  
